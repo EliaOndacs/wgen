@@ -82,5 +82,5 @@ for node in ws["lines"]:
 
 
 #end
-with open(arguments["o"],"w") as txt:
+with open(arguments["o"],"a") as txt:
     txt.write(text)
