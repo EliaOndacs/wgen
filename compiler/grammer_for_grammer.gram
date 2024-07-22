@@ -1,0 +1,6 @@
+
+expr: (SEG+NEXT_SEG)*
+SEG: "[" (factor) "]" (atom)?
+atom: "?"
+factor: INT
+NEXT_SEG: ","
